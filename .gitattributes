@@ -1,3 +1,2 @@
-dataset/preprocessed/training/*.json filter=lfs diff=lfs merge=lfs -text
 dataset/preprocessed/training/merged_train_samples.json filter=lfs diff=lfs merge=lfs -text
 dataset/preprocessed/training/mapped_train_samples.json filter=lfs diff=lfs merge=lfs -text
