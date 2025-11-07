@@ -76,6 +76,24 @@ source lfm-env/bin/activate
 pip install -r lfm_requirements.txt
 ```
 
+**Sidenote: cloning for large training data**
+
+This repo includes large training data via **Git LFS**. To get the datasets locally, clone with LFS enabled:
+
+```bash
+# 1) Make sure Git LFS is installed
+git lfs install
+
+# 2) Clone the repo
+git clone https://github.com/ongxx107/layerwise-entropy.git
+cd layerwise-entropy
+
+# 3) Pull LFS objects (large files)
+git lfs pull
+```
+
+If you prefer not to download the full datasets, skip the `git lfs pull` step and set your data paths to external copies.
+
 ---
 
 ## Quickstart
@@ -123,6 +141,11 @@ All rendered via a standardized multiple-choice interface (A–J, A–E, etc.) a
 
 ## Results & Figures
 All results and figures are available in the [result](result/) and [figures](figures/) directories.
+
+<p align="center">
+  <img src="figures/layerwise_entropy_diagram.png" alt="Layerwise Entropy" width="60%"><br>
+  <b>Architecture used to compute layerwise entropy in a decoder-only model</b>
+</p>
 
 ---
 
