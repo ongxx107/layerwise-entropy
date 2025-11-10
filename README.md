@@ -29,7 +29,7 @@ By decoding raw score logits and applying inference across multiple architecture
 layerwise-entropy/
 ├─ dataset/                         # LexGLUE dataset
 ├─ figures/                         # plots/diagrams for the paper & README
-├─ result/                          # metrics, logs, aggregated CSVs/JSONs
+├─ result/                          # metrics, logs, aggregated JSONs
 ├─ thesis/                          # thesis PDF
 ├─ 1_finetune_lfm.py                # finetune LIV-STAR (LFM2) script
 ├─ 1_finetune_llama_sft.py          # finetune Llama-3.1 script (PEFT/SFT)
@@ -179,4 +179,5 @@ Datasets are governed by their original licenses; see `DATASET_LICENSE.md`.
 ---
 
 ## Acknowledgments
+
 Thanks to Prof. Dr. Georg Groh (examiner) and Tobias Eder (supervisor). See acknowledgments in the thesis for full credits.
