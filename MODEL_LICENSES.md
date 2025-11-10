@@ -1,6 +1,6 @@
 # Model Licenses
 
-List each base model and the license that governs *fine-tuned* weights.
+List of base models and the licenses governing *fine-tuned* weights.
 
 | Model / Adapter                          | Source / Link                                       | License (SPDX) | Notes |
 |------------------------------------------|------------------------------------------------------|----------------|-------|
